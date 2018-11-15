@@ -1,0 +1,502 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!src/components/video/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/menu/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/tooltip/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/message/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/button/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/input/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!src/react-router/style/rss.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/modal/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/icon/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/lib/button/style/index.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/checkbox/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/select/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/tree-select/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!src/react-router/style/echart.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/tag/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/date-picker/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/time-picker/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!src/react-router/style/app.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/layout/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/spin/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!src/mobile/style/rss.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/list/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/normalize.css/normalize.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/drawer/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/icon/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/nav-bar/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "mini-css-extract-plugin node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/accordion/style/index.less": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {},
+        "bySource": {},
+        "usedIds": []
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/style/index.less 0": 0,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/menu/style/index.less 0": 1,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/tooltip/style/index.less 0": 2,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/layout/style/index.less 0": 3,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/spin/style/index.less 0": 4,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!src/react-router/style/app.less 0": 5,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/tree-select/style/index.less 0": 6,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/select/style/index.less 0": 7,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/input/style/index.less 0": 8,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/button/style/index.less 0": 9,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/checkbox/style/index.less 0": 10,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/date-picker/style/index.less 0": 11,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/time-picker/style/index.less 0": 12,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/tag/style/index.less 0": 13,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!src/react-router/style/echart.less 0": 14,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/lib/button/style/index.css 0": 15,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/modal/style/index.less 0": 16,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/icon/style/index.less 0": 17,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!src/react-router/style/rss.less 0": 18,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd/es/message/style/index.less 0": 19,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/rc-slider/assets/index.css 0": 20,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!src/components/video/style/index.less 0": 21,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/normalize.css/normalize.css 0": 22,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/style/index.less 0": 23,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/drawer/style/index.less 0": 24,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/accordion/style/index.less 0": 25,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/nav-bar/style/index.less 0": 26,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/icon/style/index.less 0": 27,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!node_modules/antd-mobile/es/list/style/index.less 0": 28,
+      "css node_modules/css-loader/index.js??ref--5-1!node_modules/postcss-loader/src/index.js??ref--5-2!node_modules/less-loader/dist/cjs.js??ref--5-3!src/mobile/style/rss.less 0": 29
+    },
+    "usedIds": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9,
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "13": 13,
+      "14": 14,
+      "15": 15,
+      "16": 16,
+      "17": 17,
+      "18": 18,
+      "19": 19,
+      "20": 20,
+      "21": 21,
+      "22": 22,
+      "23": 23,
+      "24": 24,
+      "25": 25,
+      "26": 26,
+      "27": 27,
+      "28": 28,
+      "29": 29
+    }
+  },
+  "chunks": {
+    "byName": {},
+    "bySource": {
+      "0 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./echart.jsx": 0,
+      "0 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./puppeteer.jsx": 0,
+      "0 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 0,
+      "0 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./shell.jsx": 0,
+      "1 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./echart.jsx": 1,
+      "1 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 1,
+      "0 src/mobile lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 1,
+      "1 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./puppeteer.jsx": 2,
+      "2 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 2,
+      "1 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./shell.jsx": 2,
+      "3 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 10,
+      "1 src/mobile lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 13,
+      "3 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./echart.jsx": 4,
+      "3 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./puppeteer.jsx": 5,
+      "5 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 6,
+      "3 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./shell.jsx": 7,
+      "1 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./video.jsx": 4,
+      "3 src/mobile lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 9,
+      "2 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./echart.jsx": 10,
+      "2 src/mobile lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 11,
+      "0 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./video.jsx": 10,
+      "4 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 13,
+      "2 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./shell.jsx": 14,
+      "2 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./puppeteer.jsx": 15,
+      "4 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./echart.jsx": 6,
+      "6 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./echart.jsx": 16,
+      "7 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 17,
+      "3 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./video.jsx": 18,
+      "5 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./echart.jsx": 19,
+      "2 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./video.jsx": 20,
+      "6 src/react-router lazy /^\\..*\\.jsx$/ groupOptions: {} namespace object ./rss.jsx": 21
+    },
+    "usedIds": [
+      0,
+      1,
+      10,
+      11,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      2,
+      20,
+      21,
+      4,
+      5,
+      6,
+      7,
+      9
+    ]
+  }
+}

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="theme-color" content="#000000">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="icon" href="/img/ico.png" type="image/x-icon">
+	<script src="https://cdn.jsdelivr.net/npm/react/umd/react.development.js" defer></script>
+	<script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.development.js" defer></script>
+	<script>
+		if (navigator.userAgent.toLowerCase().indexOf('mobile') === -1) {
+			document.writeln('<link href="/build/main.css" rel="stylesheet">')
+			document.writeln('<script src="/build/main.js" defer><\/script>')
+		} else {
+			document.writeln('<link href="/build/mobile.css" rel="stylesheet">')
+			document.writeln('<script src="/build/mobile.js" defer><\/script>')
+		}
+	</script>
+	<script src="/build/runtime.js" defer></script>
+	<script>
+		function report(url, body) {
+			return fetch(url, {
+				method: 'POST',
+				headers: new Headers({
+					'Content-Type': 'application/json'
+				}),
+				body: JSON.stringify({
+					body
+				}),
+			}).catch(e => {
+				console.error(e);
+			});
+		}
+
+		function onerror(m, f, l, c, e) {
+			//   console.error(m);
+			var data = {
+				m: m,
+				f: f,
+				l: l,
+				c: c
+			};
+			if (m instanceof ErrorEvent) {
+				var event = m;
+				data.m = event.message;
+				data.f = event.filename;
+				data.l = event.lineno;
+				data.c = event.colno;
+				e = event.error;
+			} else if (m instanceof Event) {
+				var event = m;
+				data.m = 'load error';
+				data.baseURI = event.target.baseURI;
+				data.outerHTML = event.target.outerHTML;
+				data.src = event.target.src;
+			}
+
+			if (e && e.stack) {
+				data.e = e.stack;
+			}
+			console.log(data);
+			report('/error', {
+				message: 'onerror',
+				error: data
+			});
+		}
+		window.addEventListener('error', onerror, true);
+		window.addEventListener("unhandledrejection", function(e) {
+			console.log(e);
+			report('/error', {
+				message: 'unhandledrejection',
+				error: e
+			});
+		});
+
+	</script>
+	<script>
+		if (navigator.serviceWorker && navigator.serviceWorker.register) {
+			navigator.serviceWorker.register('/sw.js').then(function(registration) {
+				console.log(registration);
+				if (window.PushManager) {
+					registration.pushManager.getSubscription().then(subscription => {
+						// 如果用户没有订阅
+						if (!subscription) {
+							subscribeUser(registration);
+						} else {
+							console.log("已经订阅:", subscription);
+							return report('/addSubscription', {
+								subscription: subscription
+							});
+						}
+					});
+				} else {
+					report('/error', {
+						message: '不支持消息推送',
+						userAgent: window.navigator.userAgent,
+					});
+				}
+
+				function subscribeUser(registration) {
+					var publicKey = "BGqo-JssZAJ02xFMA4mZuLZi19JDVKWwpJmnC2npe7c1ma7HSjX0_qw8JrOYaVR15iM7O44qs8kXh1iL51em44o";
+					var applicationServerKey = urlBase64ToUint8Array(publicKey);
+					registration.pushManager.subscribe({
+							userVisibleOnly: true,
+							applicationServerKey: applicationServerKey
+						})
+						// 用户同意
+						.then(function(subscription) {
+							console.log('用户订阅subscription:', subscription);
+							return report('/addSubscription', {
+								subscription: subscription
+							});
+						})
+						// 用户不同意或者生成失败
+						.catch(function(err) {
+							console.log('订阅推送失败: ', err);
+						});
+				}
+
+				function urlBase64ToUint8Array(base64String) {
+					var padding = '='.repeat((4 - base64String.length % 4) % 4);
+					var base64 = (base64String + padding)
+						.replace(/\-/g, '+')
+						.replace(/_/g, '/');
+
+					var rawData = window.atob(base64);
+					var outputArray = new Uint8Array(rawData.length);
+
+					for (var i = 0; i < rawData.length; ++i) {
+						outputArray[i] = rawData.charCodeAt(i);
+					}
+					return outputArray;
+				}
+
+			}).catch(function(error) {
+				report('/error', {
+					message: 'serviceWorker注册报错',
+					err: error,
+					userAgent: window.navigator.userAgent,
+				});
+				console.error(error)
+			});
+		} else {
+			report('/error', {
+				message: '不支持serviceWorker',
+				userAgent: window.navigator.userAgent,
+			});
+		}
+
+	</script>
+	<title>rss阅读器</title>
+</head>
+
+<body>
+	<noscript>
+		You need to enable JavaScript to run this app.
+	</noscript>
+	<div id="root">${html}</div>
+</body>
+
+</html>

@@ -6,9 +6,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="theme-color" content="#000000">
 	<link rel="manifest" href="/manifest.json">
+	<!-- <link rel="shortcut icon" href="/favicon.ico"> -->
 	<link rel="icon" href="/img/ico.png" type="image/x-icon">
+	<!-- <link href="/build/mobile.css" rel="stylesheet"> -->
+	<!-- <script src="/js/promise.js" defer></script> -->
+	<!-- <script src="/js/react.js" defer></script> -->
+	<!-- <script src="/js/react-dom.js" defer></script> -->
+	<!-- <script src="https://cdn.bootcss.com/babel-polyfill/7.0.0-beta.42/polyfill.min.js" defer></script> -->
+	<!-- <script src="https://unpkg.com/react/umd/react.development.js" defer></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/react/umd/react.development.js" defer></script>
+	<!-- <script src="https://unpkg.com/react@16.7.0-alpha.0/umd/react.development.js" defer></script> -->
+	<!-- <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" defer></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.development.js" defer></script>
+	<!-- <script src="https://cdn.jsdelivr.net/gh/axios/axios/dist/axios.js" defer></script> -->
+	<!-- <script src="/build/mobile.js" defer></script> -->
 	<script>
 		if (navigator.userAgent.toLowerCase().indexOf('mobile') === -1) {
 			document.writeln('<link href="/build/main.css" rel="stylesheet">')
@@ -17,6 +28,7 @@
 			document.writeln('<link href="/build/mobile.css" rel="stylesheet">')
 			document.writeln('<script src="/build/mobile.js" defer><\/script>')
 		}
+
 	</script>
 	<script src="/build/runtime.js" defer></script>
 	<script>
@@ -26,9 +38,7 @@
 				headers: new Headers({
 					'Content-Type': 'application/json'
 				}),
-				body: JSON.stringify({
-					body
-				}),
+				body: JSON.stringify(body),
 			}).catch(e => {
 				console.error(e);
 			});
@@ -87,9 +97,7 @@
 							subscribeUser(registration);
 						} else {
 							console.log("已经订阅:", subscription);
-							return report('/addSubscription', {
-								subscription: subscription
-							});
+							return report('/addSubscription', subscription);
 						}
 					});
 				} else {
@@ -109,13 +117,15 @@
 						// 用户同意
 						.then(function(subscription) {
 							console.log('用户订阅subscription:', subscription);
-							return report('/addSubscription', {
-								subscription: subscription
-							});
+							return report('/addSubscription', subscription);
 						})
 						// 用户不同意或者生成失败
 						.catch(function(err) {
 							console.log('订阅推送失败: ', err);
+							report('/error', {
+								message: '订阅推送失败',
+								error: err
+							});
 						});
 				}
 
@@ -150,7 +160,38 @@
 		}
 
 	</script>
-	<title>rss阅读器</title>
+	<!-- <script>
+		var observer = new PerformanceObserver(function(list, obj) {
+			var entries = list.getEntries();
+			console.log("PerformanceObserver", entries, list, obj);
+		});
+		//调用observer对象的observe()方法
+		observer.observe({
+			entryTypes: [
+				"frame",
+				"navigation",
+				// "resource",
+				// "mark",
+				"measure",
+				"paint",
+			]
+		});
+
+	</script> -->
+	<!-- <script src="https://www.gstatic.com/firebasejs/5.4.2/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyCcdF6B145_La4F61nsJMOCSBRsBHmEbvs",
+			authDomain: "push-dac91.firebaseapp.com",
+			databaseURL: "https://push-dac91.firebaseio.com",
+			projectId: "push-dac91",
+			storageBucket: "push-dac91.appspot.com",
+			messagingSenderId: "568776137202"
+		};
+		firebase.initializeApp(config);
+	</script> -->
+	<title>Demo测试平台</title>
 </head>
 
 <body>

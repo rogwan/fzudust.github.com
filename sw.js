@@ -13,6 +13,7 @@ workbox.core.setCacheNameDetails({
 	prefix: 'my-app',
 	suffix: 'v1'
 });
+const baseUrl = 'https://zhengjunzhe.tk';
 // workbox.googleAnalytics.initialize();
 /* workbox.setConfig({
 	debug: true
@@ -89,7 +90,7 @@ workbox.routing.registerRoute(
 			/.+(?:\.ico|\.svg|\.woff)$/ig,
 			/g\.alicdn\.com/ig,
 			/\/img\/rss\.png/ig,
-			/.+iframe\.(html|css).*/ig,
+			// /.+iframe\.(html|css).*/ig,
 		])
 	},
 	workbox.strategies.cacheFirst(),
@@ -124,9 +125,13 @@ workbox.routing.registerRoute(
 				});
 			} */
 			try {
-				const response = await fetch('http://118.24.151.190/proxy' + url.search);
-				const location = response.headers.get('Location');
-				const orgin = new URL(location || url.search.replace('?url=', ''));
+				const response = await fetch(baseUrl + '/proxy' + url.search, {
+					redirect: 'manual'
+				});
+				if (response.type === 'opaqueredirect') {  //重定向
+					return response;
+				}
+				const orgin = new URL(url.search.replace('?url=', ''));
 				const text = await response.text();
 				const html = text.replace(/<script[\S|\s]*?>[\S|\s]*?<\/script>/ig, '')
 					.replace('<head>', `<head><base href="${orgin.origin}" />`)
@@ -148,13 +153,31 @@ workbox.routing.registerRoute(
 		'GET'
 );
 workbox.routing.registerRoute(
+	/.*/ig,
+	({
+		url,
+		event
+	}) => {
+		event.request.text().then(text => fetch(baseUrl + url.pathname, {
+			method: 'POST',
+			body: text,
+		}));
+
+		return new Response('ok', {
+			status: 200,
+			statusText: 'ok'
+		});
+	},
+	'POST'
+);
+workbox.routing.registerRoute(
 	({
 		url,
 	}) => filter(url, [
 		/\.zhimg\.com/ig,
 		/miaozhen\.com/ig,
-		/player\.youku\.com/ig,
-		/img\.huxiucdn\.com/ig,
+		// /player\.youku\.com/ig,
+		// /img\.huxiucdn\.com/ig,
 		/res\.infoq\.com/ig,
 		/www\.cnbeta\.com.*read\?_csrf=.*/ig,
 	]),

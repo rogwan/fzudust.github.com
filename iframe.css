@@ -45,3 +45,6 @@ html {
 	scroll-behavior: smooth;
 }
 
+noscript {
+	display: none;
+}

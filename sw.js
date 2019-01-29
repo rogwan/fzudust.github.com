@@ -55,7 +55,9 @@ workbox.routing.registerRoute(
 		}) => {
 
 			try {
-				return await fetch(baseUrl + '/proxy' + url.search);
+				return await fetch(baseUrl + '/proxy' + url.search, {
+					redirect: 'follow',
+				});
 			} catch (error) {
 				console.error(error);
 				return new Response('proxy error', {

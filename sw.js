@@ -9,7 +9,7 @@ workbox.core.setCacheNameDetails({
 	prefix: 'my-app',
 	suffix: 'v1'
 });
-const baseUrl = 'https://zhengjunzhe.tk';
+const baseUrl = 'https://junzhe.tk';
 const filter = (url, arr) => {
 	const filter = arr.filter(regexp => url.href.match(regexp));
 	return filter.length > 0
